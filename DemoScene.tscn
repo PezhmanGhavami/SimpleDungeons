@@ -1,8 +1,8 @@
 [gd_scene load_steps=9 format=3 uid="uid://26v8vrtj6g87"]
 
-[ext_resource type="Script" path="res://DemoScene.gd" id="1_7ldx6"]
-[ext_resource type="Script" path="res://addons/SimpleDungeons/DungeonGenerator3D.gd" id="1_wd02n"]
-[ext_resource type="Script" path="res://CamOrbitCenter.gd" id="4_huxu7"]
+[ext_resource type="Script" uid="uid://bhinsmk2oreb7" path="res://DemoScene.gd" id="1_7ldx6"]
+[ext_resource type="Script" uid="uid://mhqemlqj20r3" path="res://addons/SimpleDungeons/DungeonGenerator3D.gd" id="1_wd02n"]
+[ext_resource type="Script" uid="uid://cqx6i1a3rss8t" path="res://CamOrbitCenter.gd" id="4_huxu7"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_qyqmu"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
@@ -56,7 +56,7 @@ mouse_filter = 2
 
 [node name="BGPanel" type="Panel" parent="GUI"]
 layout_mode = 0
-offset_left = 860.0
+offset_left = 851.0
 offset_top = 15.0
 offset_right = 1137.0
 offset_bottom = 443.0
